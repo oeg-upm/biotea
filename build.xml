@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project biotea_rdf4pmc with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="D:/workspace/biotea_rdf4pmc/deploy/rdf4pmc.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="ws.biotea.ld2rdf.rdfGeneration.pmcOpenAccess.PmcOpenAccessRDFHandlerWithThreads"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ activation.jar arq-2.8.5.jar axis.jar commons-beanutils-1.4.1.jar commons-codec-1.4.jar commons-collections-3.2.jar commons-fileupload-1.1.1.jar commons-httpclient-3.0.1.jar commons-io-1.2.jar commons-lang-2.1.jar commons-logging.jar commons-logging-1.1.1.jar concurrent.jar ezmorph-0.9.2.jar FastInfoset.jar fast-md5-2.5.jar http.jar icu4j_3_4.jar icu4j-3.4.4.jar iri.jar iri-0.8.jar iri-0.8-sources.jar jaxen.jar jaxws-api.jar jaxws-rt.jar jaxws-tools.jar jdom.jar jena-2.6.3.jar json.jar json-20090211.jar jsr173_api.jar jsr181-api.jar jsr250-api.jar junit-4.5.jar log4j-1.2.14.jar lucene-core-2.3.1.jar mail.jar monq-1.1.1.jar mysql-connector-java-5.1.13-bin.jar openrdf-model-1.2.7.jar openrdf-util-1.2.7.jar orphanNodesAlg.jar protege.jar protege-owl.jar rdf2go.api-4.7.3.jar rdf2go.impl.base.test-4.7.3.jar rdf2go.impl.sesame22-4.7.1-20090520.135025-2.jar rdf2go.impl.sesame22-4.7.1-SNAPSHOT.jar rdf2go.impl.sesame23-4.7.3.jar rdfreactor.generator-4.7.0.jar rdfreactor.runtime-4.7.0.jar resolver.jar rio-1.0.10.jar rt.jar saaj-api.jar saaj-impl.jar saxpath.jar serializer.jar servlet-api.jar sesame-1.2.7.jar sesame-runtime-osgi-2.3.1.jar sjsxp.jar slf4j-api-1.5.8.jar slf4j-log4j12-1.5.6.jar slf4j-log4j12-1.5.8.jar sqljdbc4.jar stax-api-1.0.1.jar utilities-v013.jar velocity-1.5.jar virt_jena.jar virtjdbc3.jar wstx-asl-3.2.9.jar xalan.jar xerces.jar xercesImpl.jar xercesImpl-2.7.1.jar xml-apis.jar reverb-latest.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="D:/workspace/biotea_rdf4pmc/bin"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="activation.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="arq-2.8.5.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="axis.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-beanutils-1.4.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-codec-1.4.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-collections-3.2.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-fileupload-1.1.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-httpclient-3.0.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-io-1.2.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-lang-2.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-logging.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="commons-logging-1.1.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="concurrent.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="ezmorph-0.9.2.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="FastInfoset.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="fast-md5-2.5.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="http.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="icu4j_3_4.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="icu4j-3.4.4.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="iri.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="iri-0.8.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="iri-0.8-sources.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jaxen.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jaxws-api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jaxws-rt.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jaxws-tools.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jdom.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jena-2.6.3.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="json.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="json-20090211.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jsr173_api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jsr181-api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="jsr250-api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="junit-4.5.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="log4j-1.2.14.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="lucene-core-2.3.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="mail.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="monq-1.1.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="mysql-connector-java-5.1.13-bin.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="openrdf-model-1.2.7.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="openrdf-util-1.2.7.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="orphanNodesAlg.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="protege.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="protege-owl.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdf2go.api-4.7.3.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdf2go.impl.base.test-4.7.3.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdf2go.impl.sesame22-4.7.1-20090520.135025-2.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdf2go.impl.sesame22-4.7.1-SNAPSHOT.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdf2go.impl.sesame23-4.7.3.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdfreactor.generator-4.7.0.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rdfreactor.runtime-4.7.0.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="resolver.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rio-1.0.10.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="rt.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="saaj-api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="saaj-impl.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="saxpath.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="serializer.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="servlet-api.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="sesame-1.2.7.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="sesame-runtime-osgi-2.3.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="sjsxp.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="slf4j-api-1.5.8.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="slf4j-log4j12-1.5.6.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="slf4j-log4j12-1.5.8.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="sqljdbc4.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="stax-api-1.0.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="utilities-v013.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="velocity-1.5.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="virt_jena.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="virtjdbc3.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="wstx-asl-3.2.9.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="xalan.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="xerces.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="xercesImpl.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="xercesImpl-2.7.1.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="xml-apis.jar"/>
+            <zipfileset dir="D:\workspace\biotea_rdf4pmc\lib" includes="reverb-latest.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<bindings wsdlLocation="whatizit.wsdl"
+    xmlns="http://java.sun.com/xml/ns/jaxws"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+
+    <package name="whatizitws.client"/>
+
+    <bindings node="wsdl:definitions/wsdl:types/xs:schema[@targetNamespace='http://www.ebi.ac.uk/webservices/whatizit/ws']">
+        <ns2:schemaBindings xmlns:ns2="http://java.sun.com/xml/ns/jaxb">
+            <ns2:package name="whatizitws.client"/>
+        </ns2:schemaBindings>
+    </bindings>
+
+    <bindings node="wsdl:definitions/wsdl:binding[@name='pipelineBinding']/wsdl:operation[@name='search']">
+        <enableMIMEContent>true</enableMIMEContent>
+    </bindings>
+</bindings>
+
