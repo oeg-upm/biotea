@@ -24,7 +24,7 @@ public class GlobalPmc {
 	public final static String pmcURI = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC"; 	
 	public final static String NLM_JOURNAL_CATALOG = "http://www.ncbi.nlm.nih.gov/nlmcatalog?term=";
 	public final static String pubMedURI = "http://www.ncbi.nlm.nih.gov/pubmed/";
-	public final static String doiURI = "http://dx.doi.org/";	
+	public final static String doiURI = "https://doi.org/";	
 	
 	//annotations pattern
     public static String BASE_URL_AO;

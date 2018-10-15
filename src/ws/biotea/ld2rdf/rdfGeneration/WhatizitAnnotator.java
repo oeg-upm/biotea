@@ -432,7 +432,7 @@ public class WhatizitAnnotator extends RDFAOAnnotator {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
-		//RDFAOAnnotator annotator = new WhatizitAnnotator("", "http://www.biotea.ws/elsevier/rdf_whatizit_ao/", "whatizitUkPmcAll", "http://dx.doi.org/10.1016/S0168-8227(01)00365-5", "10.1016/S0168-8227(01)00365-5");
+		//RDFAOAnnotator annotator = new WhatizitAnnotator("", "http://www.biotea.ws/elsevier/rdf_whatizit_ao/", "whatizitUkPmcAll", "https://doi.org/10.1016/S0168-8227(01)00365-5", "10.1016/S0168-8227(01)00365-5");
 		//String whatizit = "";
 		//annotator.annotateWithWhatizit("E:/workspace/LD2RDF_SciVerse_Servlet/temp/S0168822701003655.rdf", "E:/workspace/LD2RDF_SciVerse_Servlet/temp/S0168822701003655_" + whatizit + ".rdf", new ArrayList<Annotation>());
 		//annotator.getAnnotationsFromFile("E:/workspace/LD2RDF_SciVerse_Servlet/temp/S0168822701003655_whatizitUkPmcAll.rdf");

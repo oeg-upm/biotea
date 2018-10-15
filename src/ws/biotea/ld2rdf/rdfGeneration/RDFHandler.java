@@ -15,7 +15,7 @@ import ws.biotea.ld2rdf.util.Config;
 
 public interface RDFHandler {
 	public static final String PUBMED_URL = Config.getPubMedURL();//"http://www.ncbi.nlm.nih.gov/pubmed/";
-	public static final String DOI_URL = Config.getDOIURL();//"http://dx.doi.org/";			
+	public static final String DOI_URL = Config.getDOIURL();//"https://doi.org/";			
 	public static final String CHAR_NOT_ALLOWED = "[^A-Za-z0-9]";
 	
 	/**
